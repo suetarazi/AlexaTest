@@ -11,6 +11,7 @@ using Amazon.Lambda.Serialization;
 using System.Runtime.Serialization;
 using Amazon.Lambda.Serialization.SystemTextJson;
 
+
 // Assembly attribute to enable the Lambda function's JSON input to be converted into a .NET class.
 [assembly: LambdaSerializer(typeof(Amazon.Lambda.Serialization.SystemTextJson.DefaultLambdaJsonSerializer))]
 
