@@ -1,0 +1,13 @@
+{
+  "intents": [
+    {
+      "slots": [
+        {
+          "name": "City",
+          "type": "AMAZON.US_CITY"
+        }
+      ],
+      "intent": "HelloWorldIntent"
+    }
+  ]
+}
